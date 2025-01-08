@@ -1,0 +1,22 @@
+Installation des dépendances...
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: coverage in c:\users\emile\appdata\local\packages\pythonsoftwarefoundation.python.3.12_qbz5n2kfra8p0\localcache\local-packages\python312\site-packages (7.6.10)
+Execution des tests avec coverage...
+.F
+======================================================================
+FAIL: test_isupper (test_bank.testbank.test_isupper)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Emile\Desktop\cours\VUM\Software_Metrics\Test_autonome\test_bank.py", line 15, in test_isupper
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
+Generation du fichier requirements.txt...
+Generation du rapport coverage dans report.txt...
+Generation du rapport HTML...
+Wrote HTML report to htmlcov\index.html
